@@ -1,8 +1,8 @@
 -include .env
 
 # forge install dmfxyz/murky --no-commit
-# forge install oppenzeppelin/oppenzeppelin-contracts
-
+# forge install oppenzeppelin/oppenzeppelin-contracts --no-commit
+# forge install cyfrin/foundry-devops --no-commit
 
 .PHONY: all test clean deploy fund help install snapshot format anvil 
 
